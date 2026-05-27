@@ -1,0 +1,24 @@
+[package]
+name = "tabbislashcat-cat"
+version = "0.1.0"
+edition = "2021"
+authors = ["UaZit DeSutter <uazit@stalph.co>"]
+description = "infant + forward movement. precision. unannounced. gone."
+license = "Apache-2.0"
+repository = "https://github.com/thetabbicat/tabbislashcat-cat"
+homepage = "https://github.com/thetabbicat/tabbislashcat-cat"
+readme = "README.md"
+keywords = ["network", "protocol", "transport", "minimal", "fire-and-forget"]
+categories = ["network-programming", "asynchronous"]
+
+[dependencies]
+# tabbislashcat-infant = { path = "../tabbislashcat-infant" }
+
+[dev-dependencies]
+
+[features]
+default = []
+
+[[example]]
+name = "rust_example"
+path = "examples/rust_example.rs"
